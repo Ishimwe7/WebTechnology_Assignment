@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+div #sep{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    margin-left: 72%;
+    flex-direction:right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    list-style: none;
+    font-size: x-large;
+}
+.input{
+    display:flex;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#homefooter{
+    margin-top: 150px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+input,button,
+textarea {
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+input[type="submit"]:hover,button {
+    background-color: #555;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}

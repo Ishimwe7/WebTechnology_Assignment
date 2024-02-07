@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HR Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="sep"></div>
+    <section>
+        <h2>Login Page</h2>
+        <form id="loginForm" action="#" method="post" >
+           <div class"input"> <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+           </div>
+           <div class"input">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+           </div>
+            <button type="submit" id="loginBtn" value="Login">Login</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 HR Website. All rights reserved.</p>
+    </footer>
+    <script src="validations.js"></script>
+</body>
+</html>
